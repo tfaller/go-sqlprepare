@@ -12,7 +12,7 @@ err := sqlprepare.Prepare(db,
 			Query: "SELECT * FROM A"},
 
 		sqlprepare.ToPrepare{Name: "stmtB", Target: &stmtB,
-            Query: "INSERT INTO B (a, b, c) VALUES (?, ?, ?)"},
+			Query: "INSERT INTO B (a, b, c) VALUES (?, ?, ?)"},
         )
 
 log.Print(err)
