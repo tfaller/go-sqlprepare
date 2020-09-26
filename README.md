@@ -1,4 +1,5 @@
 # go-sqlprepare
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/tfaller/go-sqlprepare)](https://pkg.go.dev/github.com/tfaller/go-sqlprepare)
 
 Simple module to prepare multiple SQL statements at once.
 Useful at server starts.
